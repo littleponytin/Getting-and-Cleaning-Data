@@ -10,8 +10,8 @@ This R script does the following:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The data and R script should be stored in a directory that looks like this:
-* '<test>'
-* '<train>'
+* `<test>`
+* `<train>`
 * activity_labels.txt
 * features.txt
 * features_info.txt
@@ -20,7 +20,7 @@ The data and R script should be stored in a directory that looks like this:
 
 Steps to execute the R script:
 1. Set working directory to where you store the data and R script
-setwd("~/xxxx/yyy")
+ setwd("~/xxxx/yyy")
 
 2. execute the R script
-source("run_analysis.R")
+ source("run_analysis.R")
