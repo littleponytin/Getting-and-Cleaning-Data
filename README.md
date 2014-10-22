@@ -31,7 +31,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 3. Set working directory in R Studio to where you store the data and R script
  
  setwd("~/xxxx/yyy")
-
-4. execute the R script
+ 
+ 4. execute the R script
  
  source("run_analysis.R")
+ 
+ 5. the output of the R script is in the same directory with the file name 'labelledActivityAverageData.txt'
