@@ -80,13 +80,13 @@ names(labelledActivityData) <- gsub('^f',"FrequencyDomainSig.",names(labelledAct
 names(labelledActivityData) <- gsub('\\.mean',".Mean",names(labelledActivityData))
 names(labelledActivityData) <- gsub('\\.std',".StandardDeviation",names(labelledActivityData))
 
+#drop activityID column
 labelledActivityData$activityID <- NULL
+
 #####################################################################
 #5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 #compute average by activity and subject
-#labelledActivityAverageData = ddply(labelledActivityData, c("activityID", "activityName","subjectID"), numcolwise(mean))
-
 library(reshape)
 mlabelledActivityData <- melt(labelledActivityData, id=c("subjectID","activityName"))
 
