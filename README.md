@@ -22,7 +22,9 @@ The data and R script should be stored in a directory that looks like this:
 Steps to execute the R script:
 
 1. Set working directory to where you store the data and R script
+ 
  setwd("~/xxxx/yyy")
 
 2. execute the R script
+ 
  source("run_analysis.R")
