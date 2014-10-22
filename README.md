@@ -2,7 +2,7 @@
 
 Source file name: run_analysis.R
 
-Note: This script uses plyr library functions.
+Note: This script uses plyr and reshape library functions.
 
 This R script does the following:
 
